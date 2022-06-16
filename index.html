@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8"> 
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>BOOKI</title>
+	<link rel="icon" href="img/logo/Booki.png">
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400&display=swap');
+	</style>
+	<script src="https://kit.fontawesome.com/c528b180fe.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+	<header>
+		<div id="header1">
+			<img id="logobooki" src="img/logo/Booki.png" alt="">
+			<!--ajouter la barre bleue au dessus en desktop et en dessous en mobile-->
+			<nav class="menu">
+					<ul> 
+						<li><a id="hebergement" href="#section1">Hébergements</a></li>
+						<li><a id="activite" href="#section3">Activités</a></li>
+					</ul>
+			</nav> 
+		</div>
+		<div id="header2">
+			<p class="titre1">Trouvez votre hébergement pour des vacances de rêve</p><br>
+			<p class="titre2">En plein centre ville ou en pleine nature </p><br>
+		</div>
+
+		<div id="header3">
+			<form method="post" action="traitement.php">
+			<p>
+				<label for="recherche">Rechercher</label> 
+				<input type="text"name="recherche" id="recherche"
+				value="Marseille, France">
+				</input>
+			</p>
+			</form>
+		</div>
+		<div id="header4">
+			<h3>Filtres</h3>
+			<div id="F1">
+				<i class="fa-solid fa-money-bill-wave"></i>
+				<h3>Economique</h3>
+			</div>
+			<div id="F2">
+				<i class="fa-solid fa-child-reaching fa-1x"></i>
+				<h3>Familial</h3>
+			</div>
+			<div id="F3">
+				<i class="fa-solid fa-heart fa-1x"></i>
+				<h3>Romantique</h3>
+			</div>
+			<div id="F4">
+				<i class="fa-solid fa-dog fa-1x"></i>
+				<h3>Animaux autorisés</h3>
+			</div>
+		</div>	
+		<div id="F5">	
+			<i class="fa-solid fa-info"></i>
+			<p class="titre2">Plus de 500 logements sont disponibles dans cette ville</p>
+		</div>
+	</header>
+
+	<main class="contenuprincipal">
+		<div id="central">
+			<section id="section1">
+				<h1>Hébergements à Marseille</h1>
+				<article id="hotel_1">
+					<img src="" alt="photo d'une chambre de l'hôtel la cannebière">
+					<h2>Auberge La Cannebière</h2>
+					<h3>Nuit à partir de 25€</h3>
+					<p>nfueainfeangae</p>
+				</article>
+				
+				<article id="hotel_2">
+					<img src=""alt="photo d'une chambre de l'hôtel du port">
+					<h1>Hôtel du port</h1>
+					<h2>Nuit à partir de 52€</h2>
+				</article>
+				<article id="hotel_3">
+					<img src="" alt="photo d'une chambre de l'hôtel les mouettes">
+					<h1>Hôtel Les mouettes</h1>
+					<h2>Nuit à partir de 75€</h2>
+					<!--logo étoile à ajouter)-->
+				</article>
+				<article id="hotel_4">
+					<img src="" alt="photo d'une chambre de l'hôtel de la mer">
+					<h1>Hôtel de la mer</h1>
+					<h2>Nuit à partir de 46€</h2>
+					<!--logo étoile à ajouter)-->
+				</article>
+				<div id="hotel_5">
+					<img src="" alt="photo d'une chambre de l'auberge le panier">
+					<h1>Auberge Le Panier</h1>
+					<h2>Nuit à partir de 23€</h2>
+					<!--logo étoile à ajouter)-->
+				</div>
+				<div id="hotel_6">
+					<img src="" alt="miniature de la chambre blanche">
+					<h1>Hôtel chez Amina</h1>
+					<h2>Nuit à partir de 96€</h2>
+					<!--logo étoile à ajouter)-->
+				</div>
+				<a href="index.html">Afficher plus</a>
+			</section>
+					
+			<i class="fa-solid fa-star-sharp"></i>
+			<section id="section2">
+				<h1>Les plus populaires</h1>
+				<div id="hotel_7">
+					<img src="img/hebergements/populaires/chambre_verte_mini.jpeg" alt="photo d'une chambre de l'hotel du soleil du matin">
+					<h2>Hôtel Le soleil du matin</h2>
+					<p>Nuit à partir de 128€</p>
+					<!--logo étoile à ajouter)-->
+				</div>	
+				<div id="hotel_8">
+					<img src="" alt="photo d'une chambre de l'hôtel au coeur de l'eau">
+					<h2>Au coeur de l'eau chambre d'hôtes</h2>
+					<p>Nuit à partir de 71€</p>
+					<!--logo étoile à ajouter)-->
+				</div>
+				<div id="hotel_9">
+					<img src="" alt="photo d'une chambre de l'hôtel tout bleu et tout blanc">
+					<h2>Hôtel Tout bleu et Blanc</h2>
+					<p>Nuit à partir de 68€</p>
+					<!--logo étoile à ajouter)-->
+				</div>
+			</section>
+		</div>
+		
+		<section id="section3">
+			<h1>Activités à Marseille</h1>
+				<article id="A1">
+					<img src="img/activites/vieux_port_adobe_express.jpeg" alt="miniature du Vieux Port">
+					<h2>Vieux Port</h2>
+				</article>
+				<article id="A2">
+					<img src="img/activites/roche_adobe_express.jpeg" alt="miniature du fort de pornègues">
+					<h2>Fort de pornègues</h2>
+				</article>
+				<article id="A3">
+					<img src="img/activites/ile_frioul_adobe_express.jpeg" alt="miniature de l'île du frioul">
+					<h2>Ile du Frioul</h2>
+				</article>
+				<article id="A4">
+					<img src="img/activites/calanques_adobe_express.jpeg" alt="miniature du parc national des calanques">
+					<h2>Parc National des Calanques</h2>
+				</article>
+				<article id="A5">
+					<img src="img/activites/notre_dame_adobe_express.jpeg" alt="miniature de Notre dame de la garde">
+					<h2>Notre-Dame-de-la-Garde</h2>
+				</article>
+				<article id="A6">
+					<img src="img/activites/palais_adobe_express.jpeg" alt="miniature du parc longchamp">
+					<h2>Parc Longchamp</h2>
+				</article>
+		</section>
+	</main>
+
+	<footer>
+		<nav id="navfooter1"> 
+			<h3>A propos</h3>
+				<Ul>
+					<li>
+						<a href="index.html">Fonctionnement du site</a>
+					</li>
+					<li>
+						<a href="index.html"> Conditions Générales de vente</a>
+					</li>
+					<li>
+						<a href="index.html"> Données et confidentialité </a>
+					</li>
+				</Ul>
+				
+		</nav>
+
+		<nav id="navfooter2">
+			<h3>Nos hébergements</h3>
+				<ul>
+					<li>
+						<a href="index.html"> Charte qualité</a>
+					</li>
+					<li>
+						<a href="index.html"> Soumettre votre hôtel</a>
+					</li>
+				</ul>
+		</nav>
+		
+		<nav id="navfooter3">
+			<h3>Assistance</h3>
+				<ul>
+					<li>
+						<a href="index.html"> Centre d'aide</a>
+					</li>
+					<li>
+						<a href="index.html"> Nous contacter</a>
+					</li>
+				</ul>
+			
+		</nav>
+		
+	</footer>
+
+</body>
+
+</html>
